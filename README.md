@@ -1,9 +1,26 @@
 # EntityCharacterization
 This repositoy contains our introduced BAFREC (BAlancing Frequency and Rarity in Entity Characterization) algorithm. 
 
-## Getting Started
-We can't deliver all necessary dependencies, because some are missing inside maven. This dependencies have to be downloaded manually and setup like described below. 
+## Database
 
+To set up the db:
+```shell
+docker-compose up -d
+docker exec -it virtuoso isql -U dba -P dba exec="ld_dir ('/tmp/dbpedia', '*.nt', 'http://dbpedia.org');"
+docker exec -it virtuoso isql -U dba -P dba exec="ld_dir ('/tmp/lmdb', '*.nt', 'http://linkedmdb.org#');"
+docker exec -it virtuoso isql -U dba -P dba exec="rdf_loader_run();"
+docker exec -it virtuoso isql -U dba -P dba exec="SELECT * FROM DB.DBA.LOAD_LIST WHERE LL_ERROR IS NOT NULL;"
+docker exec -it virtuoso isql -U dba -P dba exec="COMMIT WORK;"
+```
+
+To clear the db from the previous run:
+```shell
+docker exec -it virtuoso isql -U dba -P dba exec="DELETE FROM rdf_quad WHERE g = iri_to_id ('http://dbpedia.org');"
+docker exec -it virtuoso isql -U dba -P dba exec="DELETE FROM rdf_quad WHERE g = iri_to_id ('http://linkedmdb.org#');"
+```
+
+## Getting Started
+We can't deliver all necessary dependencies, because some are missing inside maven. This dependencies have to be downloaded manually and setup like described below.
 
 ## Dependecies
 # ws4j
