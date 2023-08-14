@@ -48,29 +48,29 @@ public class EyreEvaluation {
 
     }
 
-    private Graph readOnotology(final String filename){
+    private Graph readOnotology(final String filename) {
         logger.info("Read ontology from file: " + filename);
         NTTripleReader reader = new NTTripleReader();
         try {
             reader.readPredicatesFromNTFile(filename);
             logger.info("Ontology loaded!");
             return reader.getGraph();
-        } catch (IOException ex){
-            logger.error("Error while reading ontology file because:" + ex );
+        } catch (IOException ex) {
+            logger.error("Error while reading ontology file because:" + ex);
             ex.printStackTrace();
         }
         return null;
     }
 
 
-    private void performAnalysis(){
+    private void performAnalysis() {
         analysisDBpedia = new GraphAnalysis(virtuosoDB, "<http://dbpedia.org>");
         analysisLMDB = new GraphAnalysis(virtuosoDB, "<http://linkedmdb.org#>");
 
-        if(Config.CACHE_ANALYSIS_RECREATE){
+        if (Config.CACHE_ANALYSIS_RECREATE) {
             logger.info("Analysis Cache should be used...");
             File cacheDir = new File(Config.CACHE_DIRECTORY);
-            if(!cacheDir.exists()){
+            if (!cacheDir.exists()) {
                 logger.info("Create cache directory...");
                 cacheDir.mkdir();
             }
@@ -90,7 +90,7 @@ public class EyreEvaluation {
             logger.info("Analysis saved!");
         }
 
-        if(!Config.CACHE_ANALYSIS_RECREATE && Config.CACHE_ANALYSIS_ENABLED){
+        if (!Config.CACHE_ANALYSIS_RECREATE && Config.CACHE_ANALYSIS_ENABLED) {
             logger.info("Load analysis from cache...");
             analysisDBpedia.setCache(GraphAnalysisCacheIO.deserializeGraphAnalysisCache(Config.CACHE_ANALYSIS_DBPEDIA));
             analysisLMDB.setCache(GraphAnalysisCacheIO.deserializeGraphAnalysisCache(Config.CACHE_ANALYSIS_LMDB));
@@ -99,7 +99,7 @@ public class EyreEvaluation {
     }
 
 
-    private void printEntityAndPredicateAnalysis(){
+    private void printEntityAndPredicateAnalysis() {
         int i = 0;
         for (final Entity e : entityList) {
             logger.info(e);
@@ -108,11 +108,11 @@ public class EyreEvaluation {
             if (eyreEntity.getGraph().contains("dbpedia")) {
                 logger.info(analysisDBpedia.computeEntityWithAnalysis(e));
             }
-            if(eyreEntity.getGraph().contains("linked")){
+            if (eyreEntity.getGraph().contains("linked")) {
                 logger.info(analysisLMDB.computeEntityWithAnalysis(e));
             }
 
-            if( i == 5)
+            if (i == 5)
                 break;
             i += 1;
         }
@@ -120,8 +120,7 @@ public class EyreEvaluation {
     }
 
 
-
-    private void performEvaluation(){
+    private void performEvaluation() {
         //Used Strategiy?
         EvaluationStrategy evaluationStrategy = Config.EYRE_EVALUATION_STRATEGY;
 
@@ -132,38 +131,37 @@ public class EyreEvaluation {
 
 
         logger.info("Perfom dbpedia evaluation...");
-        int eid = 1;
-        for(final Entity e: dbpediaEntites) {
+        for (final Entity e : dbpediaEntites) {
+            EyreEntity eyre = (EyreEntity) e;
             evaluationDBpedia.computePredicateScores(e.getPredicates());
 
             final List<Predicate> rankedPredicates = evaluationStrategy.rankPredicate(e.getPredicates(), evaluationDBpedia.getScoredPredicatesForMetric());
             final String pathRoot = Config.EYRE_RESULT_PATH + "dbpedia/";
-            if(Config.EYRE_WRITE_RESULTS)
-                writeResultsForEntity(pathRoot, eid, rankedPredicates, evaluationDBpedia);
-            eid += 1;
+            if (Config.EYRE_WRITE_RESULTS)
+                writeResultsForEntity(pathRoot, eyre.getEid(), rankedPredicates, evaluationDBpedia);
         }
 
         final Evaluation evaluationlmdb = new Evaluation(analysisLMDB);
         logger.info("Perfom lmdb evaluation...");
 
-        for(final Entity e: lmdbEntites) {
+        for (final Entity e : lmdbEntites) {
+            EyreEntity eyre = (EyreEntity) e;
+
             evaluationlmdb.computePredicateScores(e.getPredicates());
             final List<Predicate> rankedPredicates = evaluationStrategy.rankPredicate(e.getPredicates(), evaluationlmdb.getScoredPredicatesForMetric());
             final String pathRoot = Config.EYRE_RESULT_PATH + "lmdb/";
-            if(Config.EYRE_WRITE_RESULTS)
-                writeResultsForEntity(pathRoot, eid,  rankedPredicates, evaluationlmdb);
-            eid += 1;
+            if (Config.EYRE_WRITE_RESULTS)
+                writeResultsForEntity(pathRoot, eyre.getEid(), rankedPredicates, evaluationlmdb);
         }
     }
 
-    private void writeResultsForEntity(final String pathRoot, final int eid, List<Predicate> bestRankedPredicates, final Evaluation evaluation){
+    private void writeResultsForEntity(final String pathRoot, final long eid, List<Predicate> bestRankedPredicates, final Evaluation evaluation) {
         try {
             File file = new File(pathRoot + eid + "/");
             file.mkdirs();
 
 
-
-            if(Config.EYRE_WRITE_RESULTS_WITH_SCORES){
+            if (Config.EYRE_WRITE_RESULTS_WITH_SCORES) {
                 String file_rank = pathRoot + eid + "/" + eid + "_rank.csv";
                 String file_rank_5 = pathRoot + eid + "/" + eid + "_top5.csv";
                 String file_rank_10 = pathRoot + eid + "/" + eid + "_top10.csv";
@@ -180,8 +178,8 @@ public class EyreEvaluation {
                 NTTripleWriter.writePredicatesToFile(file_rank_5, bestRankedPredicates.subList(0, 5));
                 NTTripleWriter.writePredicatesToFile(file_rank_10, bestRankedPredicates.subList(0, 10));
             }
-        } catch (IOException ex){
-            logger.error("Error while writing results for entity with id: "+ eid + " because: " + ex);
+        } catch (IOException ex) {
+            logger.error("Error while writing results for entity with id: " + eid + " because: " + ex);
             ex.printStackTrace();
         }
 
@@ -189,14 +187,14 @@ public class EyreEvaluation {
     }
 
 
-    public void performExperiments(){
+    public void performExperiments() {
         logger.info("Initialize EYRE 2018 Experiments...");
         loadEntites();
 
 
         logger.info("There are " + dbpediaEntites.size() + " dbpedia entites and " + lmdbEntites.size() + " lmdb entites!");
         try {
-            if(Config.CONNECT_TO_DATABASE) {
+            if (Config.CONNECT_TO_DATABASE) {
                 virtuosoDB = new VirtuosoDB(Config.DATABASE_SERVER_ADRESS, Config.DATABASE_SERVER_PORT);
                 virtuosoDB.connect();
             }
@@ -209,10 +207,10 @@ public class EyreEvaluation {
 
             performEvaluation();
 
-            if(Config.CONNECT_TO_DATABASE) {
+            if (Config.CONNECT_TO_DATABASE) {
                 virtuosoDB.close();
             }
-        }catch (SQLException ex){
+        } catch (SQLException ex) {
             logger.error("Database error: " + ex);
             ex.printStackTrace();
         }

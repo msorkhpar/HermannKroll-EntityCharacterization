@@ -7,7 +7,7 @@ public class Config {
     //Result path where the output for the ESBM benchmark should be saved
     public static final String EYRE_RESULT_PATH = "result/";
     //Path to the EYRE entity list (all subdirectories needs to be there too)
-    public static final String EYRE_ENTITY_LIST = "data/EYRE2018/elist.txt";
+    public static final String EYRE_ENTITY_LIST = "data/2023/elist.txt";
 
     //Setting the ontology file
     public static final String ONTOLOGY_DBPEDIA_FILE = "data/dbpedia_2016_ontology.nt";
@@ -17,8 +17,8 @@ public class Config {
 
 
 
-    public static final String DATABASE_SERVER_ADRESS = "";
-    public static final int DATABASE_SERVER_PORT = 0;
+    public static final String DATABASE_SERVER_ADRESS = "localhost";
+    public static final int DATABASE_SERVER_PORT = 1111;
     public static final boolean CONNECT_TO_DATABASE = false;
 
 

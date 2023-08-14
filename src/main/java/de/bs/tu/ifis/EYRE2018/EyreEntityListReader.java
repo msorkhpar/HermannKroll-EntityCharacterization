@@ -34,9 +34,10 @@ public class EyreEntityListReader {
                     //Split line by \t
                     String[] columns = line.split("\t");
                     long eid = Long.valueOf(columns[0]);
-                    int tripeNum = Integer.valueOf(columns[4]);
 
-                    final EyreEntity entity = new EyreEntity(eid, columns[1], columns[2], tripeNum);
+                    int tripeNum = Integer.valueOf(columns[5]);
+
+                    final EyreEntity entity = new EyreEntity(eid, columns[2], columns[3], tripeNum);
                     entityList.add(entity);
 
                     if(includePredicates){
