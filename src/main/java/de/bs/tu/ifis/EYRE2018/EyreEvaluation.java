@@ -63,7 +63,7 @@ public class EyreEvaluation {
     }
 
 
-    private void performAnalysis() {
+    private void performAnalysis() throws InterruptedException {
         analysisDBpedia = new GraphAnalysis(virtuosoDB, "<http://dbpedia.org>");
         analysisLMDB = new GraphAnalysis(virtuosoDB, "<http://linkedmdb.org#>");
 
@@ -213,6 +213,8 @@ public class EyreEvaluation {
         } catch (SQLException ex) {
             logger.error("Database error: " + ex);
             ex.printStackTrace();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
     }

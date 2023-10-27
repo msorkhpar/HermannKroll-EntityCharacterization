@@ -156,24 +156,6 @@ public class GraphAnalysis {
     }
 
 
-    /**
-     * Count the amount of incoming and outgoing edges for the neighbourhood entities to which this
-     * entity is connected to
-     * @param entity source entity which neighbourhood entites should be analyzed
-     */
-    public void countPredicatesForNeighbourhoodEntities(final Entity entity){
-        for(final Predicate pred : entity.getPredicates()){
-            if(pred.getTo() instanceof Entity){
-                final Entity to = (Entity)pred.getTo();
-                countEntityIncomingPredicates(to.getName());
-                countEntityOutgoingPredicates(to.getName());
-            }
-        }
-
-
-    }
-
-
     public long computeOntologyDepth(final String entity){
         //Is in cache?
         final EntityAnalysis entityAnalysis = cache.findOrCreateEntityAnalysis(entity);

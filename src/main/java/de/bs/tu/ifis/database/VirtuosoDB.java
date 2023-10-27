@@ -54,45 +54,6 @@ public class VirtuosoDB {
 
 
     /**
-     * Queries and entity with his whole direct connected neighbourhood from virtuose
-     * @param entity Entity like in virtuoso e.g. http://dbpedia.org/...
-     * @param graph graph to fetch from (FROM Clause)
-     * @return The entity with its connected neighbourhood
-     */
-    public Entity queryEntityNeighbourhood(final String entity, String graph){
-        ResultSet rs = this.executeQuery("SPARQL SELECT ?p ?o " +
-                "FROM " + graph + " " +
-                "WHERE { "+ entity+" ?p ?o}");
-
-        if(rs == null){
-            logger.error("ResultSet is empty! Can't build neighbourhood");
-            return null;
-        }
-
-        Entity start = new Entity(entity);
-        try{
-            while(rs.next()){
-                String predicateName = rs.getString(1);
-                String objectString = rs.getString(2);
-                Node end = null;
-                if (objectString.startsWith("http:"))
-                    end = new Entity(objectString);
-                else
-                    end = new Literal(objectString);
-
-
-                Predicate predicate = new Predicate(predicateName, start, end);
-                start.addPredicate(predicate);
-            }
-            return start;
-        } catch (SQLException ex){
-            logger.error("SQL Exception while building neighbourhood: " + ex);
-            ex.printStackTrace();
-        }
-        return null;
-    }
-
-    /**
      * extracts a long from the result set with error catching
      * @param rs ResultSet
      * @return the count result or -1 if an error occured
@@ -209,6 +170,7 @@ public class VirtuosoDB {
             logger.debug("Query [" + time + "ms]:  " + sql);
             return set;
         } catch (SQLException e) {
+            e.printStackTrace();
             logger.error("Query: " + sql + " konnte nicht ausfgeführt werden: " + e.getMessage());
         }
         return null;
