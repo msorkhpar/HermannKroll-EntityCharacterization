@@ -1,5 +1,6 @@
 package de.bs.tu.ifis.EYRE2018;
 
+import de.bs.tu.ifis.Config;
 import de.bs.tu.ifis.model.Entity;
 import de.bs.tu.ifis.model.Literal;
 import de.bs.tu.ifis.model.graph.Node;
@@ -17,7 +18,7 @@ import java.util.List;
 public class EyreEntityListReader {
     private Logger logger = LogManager.getLogger();
 
-    public List<EyreEntity> readEntityListFromFile(final String filename, final boolean includePredicates){
+    public List<EyreEntity> readEntityListFromFile(final String filename, final boolean includePredicates) {
         final List<EyreEntity> entityList = new LinkedList<>();
         logger.debug("Read EYRE entity list from file: " + filename);
         try {
@@ -26,7 +27,7 @@ public class EyreEntityListReader {
                 boolean firstLine = true;
                 while ((line = br.readLine()) != null) {
                     //Skip first line
-                    if(firstLine){
+                    if (firstLine) {
                         firstLine = false;
                         continue;
                     }
@@ -40,16 +41,15 @@ public class EyreEntityListReader {
                     final EyreEntity entity = new EyreEntity(eid, columns[2], columns[3], tripeNum);
                     entityList.add(entity);
 
-                    if(includePredicates){
+                    if (includePredicates) {
                         // Filename for predicates
                         // exctract directory first
-                        String predicateFile = filename.substring(0, filename.lastIndexOf("/")+1);
-                        if(entity.getGraph().contains("dbpedia")){
-                            predicateFile += "dbpedia/";
-                        }
-                        else if(entity.getGraph().contains("linkedmdb")){
-                            predicateFile += "lmdb/";
-                        } else{
+                        String predicateFile = filename.substring(0, filename.lastIndexOf("/") + 1);
+                        if (entity.getGraph().contains("dbpedia")) {
+                            predicateFile += Config.DBPEDIA_ROOT + File.separatorChar;
+                        } else if (entity.getGraph().contains("linkedmdb")) {
+                            predicateFile += Config.LMDB_ROOT + File.separatorChar;
+                        } else {
                             logger.error("Unknown graph for entity: " + entity);
                             continue;
                         }
@@ -63,21 +63,21 @@ public class EyreEntityListReader {
                                 String object = tripleSplit[2];
                                 //Is object entity or literal?
                                 Node node = null;
-                                if(object.startsWith("<http://")){
+                                if (object.startsWith("<http://")) {
                                     node = new Entity(object.replace("<", ""));// no <,> inside entity name
                                 } else {
                                     //Remove " ."
                                     //Type is availbe
-                                    if(object.contains("\"^^<")){
+                                    if (object.contains("\"^^<")) {
                                         object = object + ">";
                                     }
-                                    node = new Literal(object.replace(" ." , ""));
+                                    node = new Literal(object.replace(" .", ""));
                                 }
                                 final Predicate predicate = new Predicate(pred, entity, node);
                                 entity.addPredicate(predicate);
 
                             }
-                        } catch (IOException ex2){
+                        } catch (IOException ex2) {
                             logger.error("Error while reading predicates for entity: " + entity + " from filename: " + predicateFile);
                             ex2.printStackTrace();
                         }
@@ -87,7 +87,7 @@ public class EyreEntityListReader {
             }
             logger.debug(entityList.size() + " entities read from file " + filename);
             return entityList;
-        } catch (IOException ex){
+        } catch (IOException ex) {
             logger.error("Error while reading entity list from file: " + filename + " because " + ex);
             ex.printStackTrace();
         }

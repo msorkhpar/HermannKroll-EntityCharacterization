@@ -10,5 +10,5 @@ services:
       DBA_PASSWORD: dba
     volumes:
       - ./db:/database
-      - ./data/2023/dbpedia:/tmp/dbpedia
-      - ./data/2023/lmdb:/tmp/lmdb
+      - ./data/2023/dbpedia-plus:/tmp/dbpedia
+      - ./data/2023/lmdb-plus:/tmp/lmdb

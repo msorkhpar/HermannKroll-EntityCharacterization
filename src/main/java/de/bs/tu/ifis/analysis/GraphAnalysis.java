@@ -25,40 +25,37 @@ public class GraphAnalysis {
     private Entity ontologyRoot = null;
     private HashMap<String, Double> pagerankScoreIndex = null;
 
-    public GraphAnalysis(final VirtuosoDB virtuosoDB, final String graph){
+    public GraphAnalysis(final VirtuosoDB virtuosoDB, final String graph) {
         this.virtuosoDB = virtuosoDB;
         this.graph = graph;
     }
 
-    
 
-    public void clearCache(){
+    public void clearCache() {
         cache.clearCaches();
     }
-
-
 
 
     /**
      * computes the amount for each predicate of the entity (predicate name is only used once)
      * uses caching if predicate statistics are already queried
+     *
      * @param entity entity which predicates should be analyzed
      * @return a hashmap containing the predicate names with a amount for each predicate
      */
-    public HashMap<String, Long> countPredicateTypesAmountsForEntity(final Entity entity){
+    public HashMap<String, Long> countPredicateTypesAmountsForEntity(final Entity entity) {
         final HashMap<String, Long> predicateTypes = new HashMap<>();
-        for(final Predicate predicate : entity.getPredicates()){
+        for (final Predicate predicate : entity.getPredicates()) {
             //If occurrences are already cached -> use it
             PredicateAnalysis predicationAnalysis = cache.predicateAnalysisIndex.get(predicate.getName());
-            if(predicationAnalysis == null){
+            if (predicationAnalysis == null) {
                 predicationAnalysis = new PredicateAnalysis();
                 cache.predicateAnalysisIndex.put(predicate.getName(), predicationAnalysis);
             }
 
-            if(predicationAnalysis.getAmountInDatabase() != null){
+            if (predicationAnalysis.getAmountInDatabase() != null) {
                 predicateTypes.put(predicate.getName(), predicationAnalysis.getAmountInDatabase());
-            }
-            else {
+            } else {
                 //Fetch from database
                 long amount = virtuosoDB.countPredicateTypeInDatabase(predicate.getName(), graph);
                 predicateTypes.put(predicate.getName(), amount);
@@ -74,15 +71,16 @@ public class GraphAnalysis {
 
     /**
      * computes the occurrences of a specific predicate type
+     *
      * @param predicate predicate
      * @return the amount
      */
-    public long countPredicateTypeOccurences(final String predicate){
-        final PredicateAnalysis predicationAnalysis =  cache.findOrCreatePredicateAnalysis(predicate);
+    public long countPredicateTypeOccurences(final String predicate) {
+        final PredicateAnalysis predicationAnalysis = cache.findOrCreatePredicateAnalysis(predicate);
 
         //Test if amount is cached
         Long amount = predicationAnalysis.getAmountInDatabase();
-        if(amount != null){
+        if (amount != null) {
             return amount;
         }
         //Not cached - query it
@@ -95,15 +93,16 @@ public class GraphAnalysis {
     /**
      * computes the amount of incoming predicates for an entity
      * uses caching
+     *
      * @param entity entity
      * @return the amount
      */
-    public long countEntityIncomingPredicates(final String entity){
+    public long countEntityIncomingPredicates(final String entity) {
         final EntityAnalysis entityAnalysis = cache.findOrCreateEntityAnalysis(entity);
 
         //Test if amount is cached
         Long amount = entityAnalysis.getIncomingPredicates();
-        if(amount != null){
+        if (amount != null) {
             return amount;
         }
         //Not cached - query it
@@ -116,15 +115,16 @@ public class GraphAnalysis {
     /**
      * computes the amount of incoming predicates for a literal
      * uses caching
+     *
      * @param literal literal
      * @return the amount
      */
-    public long countLiteralIncomingPredicates(final String literal){
+    public long countLiteralIncomingPredicates(final String literal) {
         final EntityAnalysis entityAnalysis = cache.findOrCreateEntityAnalysis(literal);
 
         //Test if amount is cached
         Long amount = entityAnalysis.getIncomingPredicates();
-        if(amount != null){
+        if (amount != null) {
             return amount;
         }
         //Not cached - query it
@@ -137,36 +137,42 @@ public class GraphAnalysis {
     /**
      * computes the amount of outgoing predicates for an entity
      * uses caching
+     *
      * @param entity entity
      * @return the amount
      */
-    public long countEntityOutgoingPredicates(final String entity){
+    public long countEntityOutgoingPredicates(final String entity) {
         final EntityAnalysis entityAnalysis = cache.findOrCreateEntityAnalysis(entity);
 
         //Test if amount is cached
         Long amount = entityAnalysis.getOutgoingPredicates();
-        if(amount != null){
+        if (amount != null) {
             return amount;
         }
         //Not cached - query it
         amount = virtuosoDB.countEntityOutgoingPredicates(entity, graph);
+//        try {
+//            Thread.sleep(100);
+//        } catch (Exception e) {
+//
+//        }
         //Cache it
         entityAnalysis.setOutgoingPredicates(amount);
         return amount;
     }
 
 
-    public long computeOntologyDepth(final String entity){
+    public long computeOntologyDepth(final String entity) {
         //Is in cache?
         final EntityAnalysis entityAnalysis = cache.findOrCreateEntityAnalysis(entity);
-        if(entityAnalysis.getOntologyDepth() != null){
+        if (entityAnalysis.getOntologyDepth() != null) {
             return entityAnalysis.getOntologyDepth();
         }
         //Ontology is set?
-        if(ontology != null) {
-           //Find entity node in ontology with same name
+        if (ontology != null) {
+            //Find entity node in ontology with same name
             final Entity onE1 = ontology.findEntity(entity);
-            if(onE1 != null){
+            if (onE1 != null) {
                 //Compute Path between ontology root and node
                 long pathLength = GraphTools.calculateShortestDistanceBetween(ontologyRoot, onE1);
                 entityAnalysis.setOntologyDepth(pathLength);
@@ -177,17 +183,17 @@ public class GraphAnalysis {
     }
 
 
-    public long computeOntologySubtreeSize(final String entity){
+    public long computeOntologySubtreeSize(final String entity) {
         //Is in cache?
         final EntityAnalysis entityAnalysis = cache.findOrCreateEntityAnalysis(entity);
-        if(entityAnalysis.getSubtreeSize() != null){
+        if (entityAnalysis.getSubtreeSize() != null) {
             return entityAnalysis.getSubtreeSize();
         }
         //Ontology is set?
-        if(ontology != null) {
+        if (ontology != null) {
             //Find entity node in ontology with same name
             final Entity onE1 = ontology.findEntity(entity);
-            if(onE1 != null){
+            if (onE1 != null) {
                 //Compute Path between ontology root and node
                 long pathLength = GraphTools.subtreeSize(onE1);
                 entityAnalysis.setSubtreeSize(pathLength);
@@ -200,19 +206,20 @@ public class GraphAnalysis {
     /**
      * computes the PageRank Score for an entty
      * uses cache
+     *
      * @param entity entity
      * @return PageRank Score
      */
-    public double computePagerankScore(final String entity){
+    public double computePagerankScore(final String entity) {
         //Is in cache?
         final EntityAnalysis entityAnalysis = cache.findOrCreateEntityAnalysis(entity);
-        if(entityAnalysis.getPagerankScore() != null){
+        if (entityAnalysis.getPagerankScore() != null) {
             return entityAnalysis.getPagerankScore();
         }
         //Ontology is set?
-        if(pagerankScoreIndex != null) {
+        if (pagerankScoreIndex != null) {
             Double score = pagerankScoreIndex.get(entity);
-            if(score == null){
+            if (score == null) {
                 return -1;
             }
 
@@ -224,10 +231,11 @@ public class GraphAnalysis {
 
     /**
      * performs a full analysis for the entites
+     *
      * @param entityList given entites
      */
-    public void performFullAnalysis(final List<Entity> entityList){
-        for(final Entity ent : entityList){
+    public void performFullAnalysis(final List<Entity> entityList) {
+        for (final Entity ent : entityList) {
             //Entity analysis
             this.countPredicateTypeOccurences(ent.getName());
             this.countEntityIncomingPredicates(ent.getName());
@@ -237,11 +245,11 @@ public class GraphAnalysis {
             this.computeOntologySubtreeSize(ent.getName());
             //this.computePagerankScore(ent.getName());
 
-            for(final Predicate pre : ent.getPredicates()){
+            for (final Predicate pre : ent.getPredicates()) {
                 //Pred analysis
                 this.countPredicateTypeOccurences(pre.getName());
 
-                if(pre.getTo() instanceof Entity) {
+                if (pre.getTo() instanceof Entity) {
                     final Entity to = (Entity) pre.getTo();
                     //Entity "to" analysis
                     this.countEntityIncomingPredicates(to.getName());
@@ -251,45 +259,50 @@ public class GraphAnalysis {
                     this.computeOntologySubtreeSize(to.getName());
                     //this.computePagerankScore(to.getName());
                 }
-                if(pre.getTo() instanceof Literal){
-                    final Literal lit = (Literal)pre.getTo();
+                if (pre.getTo() instanceof Literal) {
+                    final Literal lit = (Literal) pre.getTo();
                     this.countLiteralIncomingPredicates(lit.getValue());
                 }
+//                try {
+//                    Thread.sleep(10);
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
             }
         }
     }
 
-    public void enableOnotologyAnalysis(final Graph ontology, final Entity ontologyRoot){
+    public void enableOnotologyAnalysis(final Graph ontology, final Entity ontologyRoot) {
         this.ontology = ontology;
         this.ontologyRoot = ontologyRoot;
     }
 
-    public void enablePagerankScoreAnalysis(final HashMap<String, Double> pagerankScoreIndex){
+    public void enablePagerankScoreAnalysis(final HashMap<String, Double> pagerankScoreIndex) {
         this.pagerankScoreIndex = pagerankScoreIndex;
     }
 
-    public String computeEntityWithAnalysis(final Entity entity){
+    public String computeEntityWithAnalysis(final Entity entity) {
         final StringBuffer buffer = new StringBuffer();
         //buffer.append("Entity{" + "name='" + entity.getName() + '\'' + '}');
         buffer.append(entity.toString());
-        for(final Predicate pre : entity.getPredicates()){
+        for (final Predicate pre : entity.getPredicates()) {
             buffer.append('\n');
             buffer.append("\t\t\t\t");
             buffer.append(pre.getName() + " [amount=" + countPredicateTypeOccurences(pre.getName()) + "] --->  ");
 
-            if(pre.getTo() instanceof Entity){
-                final Entity to = (Entity)pre.getTo();
+            if (pre.getTo() instanceof Entity) {
+                final Entity to = (Entity) pre.getTo();
                 long incomingEdgesForE = this.countEntityIncomingPredicates(to.getName());
                 long outgoingEdgesForE = this.countEntityOutgoingPredicates(to.getName());
                 long ontologyDepth = this.computeOntologyDepth(to.getName());
                 long ontologySubtreeSize = this.computeOntologySubtreeSize(to.getName());
 
                 buffer.append(to.getName() + " [incPre = " + incomingEdgesForE + " , outPre=" + outgoingEdgesForE);
-                if(ontologyDepth != -1) {
-                    buffer.append(", ontDepth="+ ontologyDepth + ", onSubtreeSize=" + ontologySubtreeSize);
+                if (ontologyDepth != -1) {
+                    buffer.append(", ontDepth=" + ontologyDepth + ", onSubtreeSize=" + ontologySubtreeSize);
                 }
                 double pagerank = this.computePagerankScore(to.getName());
-                if(pagerank > 0.0){
+                if (pagerank > 0.0) {
                     buffer.append(", pagerank=" + String.format("%1.2f", pagerank));
                 }
 

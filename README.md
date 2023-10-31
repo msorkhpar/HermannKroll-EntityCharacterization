@@ -11,6 +11,7 @@ docker exec -it virtuoso isql -U dba -P dba exec="ld_dir ('/tmp/lmdb', '*.nt', '
 docker exec -it virtuoso isql -U dba -P dba exec="rdf_loader_run();"
 docker exec -it virtuoso isql -U dba -P dba exec="SELECT * FROM DB.DBA.LOAD_LIST WHERE LL_ERROR IS NOT NULL;"
 docker exec -it virtuoso isql -U dba -P dba exec="COMMIT WORK;"
+docker exec -it virtuoso isql -U dba -P dba exec="SPARQL SELECT COUNT(*) WHERE { ?s ?p <http://dbpedia.org/class/yago/ImaginaryBeing109483738> . };"
 ```
 
 To clear the db from the previous run:

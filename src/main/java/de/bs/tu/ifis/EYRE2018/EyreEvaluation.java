@@ -196,7 +196,6 @@ public class EyreEvaluation {
         try {
             if (Config.CONNECT_TO_DATABASE) {
                 virtuosoDB = new VirtuosoDB(Config.DATABASE_SERVER_ADRESS, Config.DATABASE_SERVER_PORT);
-                virtuosoDB.connect();
             }
 
             performAnalysis();
@@ -204,16 +203,8 @@ public class EyreEvaluation {
             //Optional:
             //printEntityAndPredicateAnalysis();
 
-
             performEvaluation();
-
-            if (Config.CONNECT_TO_DATABASE) {
-                virtuosoDB.close();
-            }
-        } catch (SQLException ex) {
-            logger.error("Database error: " + ex);
-            ex.printStackTrace();
-        } catch (InterruptedException e) {
+        }catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 

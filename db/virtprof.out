@@ -1,0 +1,12 @@
+<table id='tim_t' border="1" cellpadding="3" cellspacing="0"><tr><td>Started</td><td id='start_t'>2023-10-31 04:08:15</td></tr>
+<tr><td>End</td><td id='end_t'>2023-10-31 04:08:24</td></tr>
+</table>
+
+<table id='qprof_t' border="1" cellpadding="3" cellspacing="0"><tr><th colspan="5">Query Profile (msec)</th></tr><tr><th>Real</th><th>client wait</th><th>avg conc</th><th>n_execs</th><th>avg exec</th></tr><tr><td>8464</td><td>18</td><td>0.002127</td><td>1</td><td>18</td></tr></table>
+
+<table id='qprof2_t' border="1" cellpadding="3" cellspacing="0"><tr><td>100 %</td><td>under 1 s</td></tr><tr><td>0 %</td><td>under 2 s</td></tr><tr><td>0 %</td><td>under 5 s</td></tr><tr><td>0 %</td><td>under 10 s</td></tr><tr><td>0 %</td><td>under 30 s</td></tr></table>
+
+<table id='stmts_t' border="1" cellpadding="3" cellspacing="0"><tr><th>stmts compiled</th><th>Time (msec)</th><th>prepared reused</th></tr><tr><td>0</td><td>0</td><td>10734 %</td></tr></table>
+<table border="1" cellpadding="3" cellspacing="0"><tr><th>%</th><th>total</th><th>n-times</th><th>n-errors</th></tr>
+<tr><td>100%</td><td>18      </td><td>1       </td><td>0    </td><td>/DAV/VAD/conductor/logging_page.vspx</td></tr>
+</table>
