@@ -23,7 +23,7 @@ if [ ! -d "$WORKING_DIR/$ESBM_NAME" ]; then
     tar -xz -C $WORKING_DIR --strip=2 ESBM-master/$ESBM_VERSION/$ESBM_NAME
 fi
 
-if [ ! -f "$WORKING_DIR/eval.jar" ]; then
+if [ ! -f "$WORKING_DIR/$ESBM_EVAL_JAR_NAME" ]; then
   echo "Downloading ESBM $ESBM_EVAL_JAR_NAME file..."
   curl --request GET -sL \
     --url "https://raw.githubusercontent.com/nju-websoft/ESBM/master/$ESBM_VERSION/Evaluator/$ESBM_EVAL_JAR_NAME" \
