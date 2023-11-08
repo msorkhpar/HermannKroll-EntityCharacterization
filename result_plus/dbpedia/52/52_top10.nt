@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Cindy_Mackey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer> .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://dbpedia.org/ontology/state> <http://dbpedia.org/resource/Georgia_(U.S._state)> .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://www.w3.org/2000/01/rdf-schema#label> "University of Georgia"@en .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://dbpedia.org/ontology/type> <http://dbpedia.org/resource/Public_university> .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:1961_births> .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:American_female_golfers> .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Clean> .
+<http://dbpedia.org/resource/Cindy_Mackey> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Georgia_Bulldogs_women's_golfers> .

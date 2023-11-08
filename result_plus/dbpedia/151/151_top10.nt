@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Ayrovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Village> .
+<http://dbpedia.org/resource/Ayrovo> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Bulgaria> .
+<http://dbpedia.org/resource/Ayrovo> <http://www.w3.org/2002/07/owl#differentFrom> <http://dbpedia.org/resource/Bulgaria> .
+<http://dbpedia.org/resource/Ayrovo> <http://dbpedia.org/ontology/spokenIn> <http://dbpedia.org/resource/Bulgaria> .
+<http://dbpedia.org/resource/Ayrovo> <http://www.w3.org/2000/01/rdf-schema#label> "Kardzhali Province"@en .
+<http://dbpedia.org/resource/Ayrovo> <http://dbpedia.org/ontology/place> <http://dbpedia.org/resource/Bulgaria> .
+<http://dbpedia.org/resource/Ayrovo> <http://dbpedia.org/ontology/place> <http://dbpedia.org/resource/Bulgaria> .
+<http://dbpedia.org/resource/Ayrovo> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Bulgaria> .
+<http://dbpedia.org/resource/Ayrovo> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/List_of_fish_of_the_Black_Sea> .
+<http://dbpedia.org/resource/Ayrovo> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bulgaria> .

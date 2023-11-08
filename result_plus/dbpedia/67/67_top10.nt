@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/place> <http://dbpedia.org/resource/India> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/spokenIn> <http://dbpedia.org/resource/India> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/headquarter> <http://dbpedia.org/resource/India> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://www.w3.org/2000/01/rdf-schema#label> "Battle of Calicut (1502)"@en .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/usingCountry> <http://dbpedia.org/resource/India> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/India> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/India> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Constitution_of_India> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Flag_Portugal_(1495).svg> .

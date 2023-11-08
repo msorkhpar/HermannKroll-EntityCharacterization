@@ -1,0 +1,10 @@
+<http://data.linkedmdb.org/resource/actor/38875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
+<http://data.linkedmdb.org/resource/actor/38875> <http://data.linkedmdb.org/resource/movie/actor> <http://data.linkedmdb.org/resource/actor/38875> .
+<http://data.linkedmdb.org/resource/actor/38875> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/103177> .
+<http://data.linkedmdb.org/resource/actor/38875> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/108710> .
+<http://data.linkedmdb.org/resource/actor/38875> <http://www.w3.org/2000/01/rdf-schema#label> "performance #108710" .
+<http://data.linkedmdb.org/resource/actor/38875> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/113076> .
+<http://data.linkedmdb.org/resource/actor/38875> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/114086> .
+<http://data.linkedmdb.org/resource/actor/38875> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/114242> .
+<http://data.linkedmdb.org/resource/actor/38875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
+<http://data.linkedmdb.org/resource/actor/38875> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/133703> .

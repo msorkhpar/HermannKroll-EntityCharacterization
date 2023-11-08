@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Dallas_Keuchel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/resource/Dallas_Keuchel> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/Dallas_Keuchel> <http://dbpedia.org/ontology/countySeat> <http://dbpedia.org/resource/Tulsa,_Oklahoma> .
+<http://dbpedia.org/resource/Dallas_Keuchel> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Dallas_Keuchel_signing_autographs_in_Jan_2015.jpg> .
+<http://dbpedia.org/resource/Dallas_Keuchel> <http://www.w3.org/2000/01/rdf-schema#label> "Tulsa, Oklahoma"@en .

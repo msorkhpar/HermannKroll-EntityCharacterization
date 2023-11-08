@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Cork_City_F.C.> .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Munster> .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://dbpedia.org/ontology/tenant> <http://dbpedia.org/resource/Cork_City_F.C.> .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://www.w3.org/2000/01/rdf-schema#label> "Turners Cross (stadium)"@en .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://dbpedia.org/ontology/tenant> <http://dbpedia.org/resource/Cork_City_F.C.> .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Cork_(city)> .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Cork_(city)> .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Port_of_Cork> .
+<http://dbpedia.org/resource/2011_League_of_Ireland_Cup_Final> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:League_of_Ireland_Cup_finals> .

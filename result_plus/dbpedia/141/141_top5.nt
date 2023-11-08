@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Congressman> .
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://dbpedia.org/ontology/headquarter> <http://dbpedia.org/resource/New_York> .
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://dbpedia.org/ontology/largestCity> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://www.w3.org/2000/01/rdf-schema#label> "New York"@en .

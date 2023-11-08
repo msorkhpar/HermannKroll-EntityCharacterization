@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RecordLabel> .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/musicSubgenre> <http://dbpedia.org/resource/Hard_rock> .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Hard_rock> .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://www.w3.org/2000/01/rdf-schema#label> "Rebel Love Song"@en .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/derivative> <http://dbpedia.org/resource/Hard_rock> .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/associatedBand> <http://dbpedia.org/resource/Black_Veil_Brides> .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/recordedIn> <http://dbpedia.org/resource/California> .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Band> .
+<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/distributingCompany> <http://dbpedia.org/resource/Universal_Music_Group> .

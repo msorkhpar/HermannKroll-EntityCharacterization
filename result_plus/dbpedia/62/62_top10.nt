@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/spokenIn> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://www.w3.org/2000/01/rdf-schema#label> "1967 Italian Grand Prix"@en .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Monza_1957.jpg> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Monza_1957.jpg> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/List_of_national_parks_of_Italy> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Italy> .

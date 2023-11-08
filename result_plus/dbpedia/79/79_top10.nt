@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Stara_Bučka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Member_states_of_the_United_Nations> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://www.w3.org/2002/07/owl#differentFrom> <http://dbpedia.org/resource/Slovenia> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://dbpedia.org/ontology/spokenIn> <http://dbpedia.org/resource/Slovenia> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality of Škocjan"@en .
+<http://dbpedia.org/resource/Stara_Bučka> <http://dbpedia.org/ontology/timeZone> <http://dbpedia.org/resource/Central_European_Time> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://dbpedia.org/ontology/governmentType> <http://dbpedia.org/resource/Unitary_state> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Flag_of_Slovenia.svg> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Jewish_history> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Flag_of_Slovenia.svg> .

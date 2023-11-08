@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://dbpedia.org/ontology/isPartOfMilitaryConflict> <http://dbpedia.org/resource/Mexican_Revolution> .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://dbpedia.org/ontology/commander> <http://dbpedia.org/resource/Pancho_Villa> .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/Mexican_Revolution> .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://www.w3.org/2000/01/rdf-schema#label> "Pancho Villa"@en .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Zacatecas> .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Zacatecas> .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Zacatecas> .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/History_of_the_Catholic_Church> .
+<http://dbpedia.org/resource/Battle_of_Zacatecas_(1914)> <http://dbpedia.org/ontology/place> <http://dbpedia.org/resource/Zacatecas> .

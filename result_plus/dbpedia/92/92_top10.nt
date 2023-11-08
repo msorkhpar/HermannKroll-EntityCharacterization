@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Drama_City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BroadcastNetwork> .
+<http://dbpedia.org/resource/Drama_City> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/Drama_City> <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/South_Korea> .
+<http://dbpedia.org/resource/Drama_City> <http://dbpedia.org/ontology/usingCountry> <http://dbpedia.org/resource/South_Korea> .
+<http://dbpedia.org/resource/Drama_City> <http://www.w3.org/2000/01/rdf-schema#label> "Ku Hye-sun"@en .
+<http://dbpedia.org/resource/Drama_City> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/South_Korea> .
+<http://dbpedia.org/resource/Drama_City> <http://dbpedia.org/ontology/governmentType> <http://dbpedia.org/resource/Unitary_state> .
+<http://dbpedia.org/resource/Drama_City> <http://dbpedia.org/ontology/occupation> <http://dbpedia.org/resource/Singing> .
+<http://dbpedia.org/resource/Drama_City> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Vowel_tables> .
+<http://dbpedia.org/resource/Drama_City> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/South_Korea> .

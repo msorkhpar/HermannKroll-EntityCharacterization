@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/populationPlace> <http://dbpedia.org/resource/Thailand> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Yangon_Region> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/Bamar_people> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://www.w3.org/2000/01/rdf-schema#label> "Pe Maung Tin"@en .

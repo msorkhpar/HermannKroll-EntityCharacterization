@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Band> .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://dbpedia.org/ontology/stylisticOrigin> <http://dbpedia.org/resource/Rock_music> .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://dbpedia.org/ontology/type> <http://dbpedia.org/resource/Album> .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://dbpedia.org/ontology/product> <http://dbpedia.org/resource/Album> .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://www.w3.org/2000/01/rdf-schema#label> "Foppt den Dämon!"@en .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://dbpedia.org/ontology/musicSubgenre> <http://dbpedia.org/resource/Medieval_metal> .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://dbpedia.org/ontology/associatedBand> <http://dbpedia.org/resource/Subway_to_Sally> .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://dbpedia.org/ontology/musicSubgenre> <http://dbpedia.org/resource/Medieval_metal> .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RecordLabel> .
+<http://dbpedia.org/resource/Foppt_den_Dämon!> <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/Germany> .

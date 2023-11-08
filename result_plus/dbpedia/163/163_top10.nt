@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MusicalArtist> .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://dbpedia.org/ontology/stylisticOrigin> <http://dbpedia.org/resource/Alternative_rock> .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://dbpedia.org/ontology/foundedBy> <http://dbpedia.org/resource/EMI> .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://www.w3.org/2000/01/rdf-schema#label> "Silence Is Easy"@en .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Rock_music> .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://dbpedia.org/ontology/musicSubgenre> <http://dbpedia.org/resource/Alternative_rock> .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://dbpedia.org/ontology/associatedBand> <http://dbpedia.org/resource/Starsailor_(band)> .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Wall_of_Sound> .
+<http://dbpedia.org/resource/Silence_Is_Easy_(song)> <http://dbpedia.org/ontology/derivative> <http://dbpedia.org/resource/Alternative_rock> .

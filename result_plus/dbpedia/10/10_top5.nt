@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Roderick_Carr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Town> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_Kingdom> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/isPartOfMilitaryConflict> <http://dbpedia.org/resource/World_War_II> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/World_War_II> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://www.w3.org/2000/01/rdf-schema#label> "Air Force Cross (United Kingdom)"@en .

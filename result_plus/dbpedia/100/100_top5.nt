@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Wide_Awake_Drunk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RecordLabel> .
+<http://dbpedia.org/resource/Wide_Awake_Drunk> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/Wide_Awake_Drunk> <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Wide_Awake_Drunk> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/New_York> .
+<http://dbpedia.org/resource/Wide_Awake_Drunk> <http://www.w3.org/2000/01/rdf-schema#label> "New York"@en .

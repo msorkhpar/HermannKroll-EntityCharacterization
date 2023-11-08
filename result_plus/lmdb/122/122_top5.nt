@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/director/10846> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/director> .
+<http://data.linkedmdb.org/resource/director/10846> <http://data.linkedmdb.org/resource/movie/director> <http://data.linkedmdb.org/resource/director/10846> .
+<http://data.linkedmdb.org/resource/director/10846> <http://data.linkedmdb.org/resource/movie/production_company> <http://data.linkedmdb.org/resource/production_company/133> .
+<http://data.linkedmdb.org/resource/director/10846> <http://data.linkedmdb.org/resource/movie/production_company> <http://data.linkedmdb.org/resource/production_company/133> .
+<http://data.linkedmdb.org/resource/director/10846> <http://www.w3.org/2000/01/rdf-schema#label> "Paul Morris (Director)" .

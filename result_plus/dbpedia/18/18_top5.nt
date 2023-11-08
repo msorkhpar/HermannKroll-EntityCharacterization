@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Burgery_ambush> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Town> .
+<http://dbpedia.org/resource/Burgery_ambush> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ireland.svg?width=300> .
+<http://dbpedia.org/resource/Burgery_ambush> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/County_Waterford> .
+<http://dbpedia.org/resource/Burgery_ambush> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Flag_of_Ireland.svg> .
+<http://dbpedia.org/resource/Burgery_ambush> <http://www.w3.org/2000/01/rdf-schema#label> "Burgery ambush"@en .

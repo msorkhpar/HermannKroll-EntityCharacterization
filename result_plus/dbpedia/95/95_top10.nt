@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MusicalArtist> .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://dbpedia.org/ontology/stylisticOrigin> <http://dbpedia.org/resource/Rock_music> .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://www.w3.org/2002/07/owl#differentFrom> <http://dbpedia.org/resource/New_wave_music> .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://www.w3.org/2000/01/rdf-schema#label> "Don't Ask Me Why (Billy Joel song)"@en .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://dbpedia.org/ontology/distributingCompany> <http://dbpedia.org/resource/Sony_Music_Entertainment> .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Rock_music> .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://dbpedia.org/ontology/musicSubgenre> <http://dbpedia.org/resource/Hard_rock> .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/List_of_soft_rock_artists> .
+<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://dbpedia.org/ontology/derivative> <http://dbpedia.org/resource/Rock_music> .

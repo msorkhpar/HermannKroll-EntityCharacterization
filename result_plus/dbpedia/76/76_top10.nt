@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AdministrativeRegion> .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/South_Carolina> .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://dbpedia.org/ontology/locatedInArea> <http://dbpedia.org/resource/South_Carolina> .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://www.w3.org/2000/01/rdf-schema#label> "Pinnacle Mountain (South Carolina)"@en .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://dbpedia.org/ontology/state> <http://dbpedia.org/resource/South_Carolina> .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://dbpedia.org/ontology/state> <http://dbpedia.org/resource/South_Carolina> .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/South_Carolina> .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/South_Carolina_Department_of_Transportation> .
+<http://dbpedia.org/resource/Pinnacle_Mountain_(South_Carolina)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Former_British_colonies> .

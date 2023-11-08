@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/France> .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://dbpedia.org/ontology/isPartOfMilitaryConflict> <http://dbpedia.org/resource/Second_Balkan_War> .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Articles_containing_video_clips> .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://www.w3.org/2000/01/rdf-schema#label> "Alexander I of Yugoslavia"@en .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://dbpedia.org/ontology/commander> <http://dbpedia.org/resource/Alexander_I_of_Yugoslavia> .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Plan_of_the_Battle_of_Bregalnitza.png> .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/Military_Academy_(Serbia)> .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/List_of_places_burned_during_the_Balkan_Wars> .
+<http://dbpedia.org/resource/Battle_of_Bregalnica> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Plan_of_the_Battle_of_Bregalnitza.png> .

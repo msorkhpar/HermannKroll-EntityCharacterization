@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RecordLabel> .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://dbpedia.org/ontology/stylisticOrigin> <http://dbpedia.org/resource/Hip_hop_music> .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://www.w3.org/2000/01/rdf-schema#label> "Slow jam"@en .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://dbpedia.org/ontology/foundedBy> <http://dbpedia.org/resource/DeVante_Swing> .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Hip_hop_music> .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Usher_videography> .
+<http://dbpedia.org/resource/Can_U_Get_wit_It> <http://dbpedia.org/ontology/distributingCompany> <http://dbpedia.org/resource/Arista_Records> .

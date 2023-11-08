@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/President> .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Artigas.svg?width=300> .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://www.w3.org/2002/07/owl#differentFrom> <http://dbpedia.org/resource/Battle_of_Cepeda_(1859)> .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://www.w3.org/2000/01/rdf-schema#label> "Estanislao López"@en .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Flag_of_Artigas.svg> .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Flag_of_Artigas.svg> .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Santa_Fe,_Argentina> .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Governor> .
+<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Argentine_generals> .

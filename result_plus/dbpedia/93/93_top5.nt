@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/If_(Glasvegas_song)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Band> .
+<http://dbpedia.org/resource/If_(Glasvegas_song)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/If_(Glasvegas_song)> <http://www.w3.org/2002/07/owl#differentFrom> <http://dbpedia.org/resource/Indie_rock> .
+<http://dbpedia.org/resource/If_(Glasvegas_song)> <http://dbpedia.org/ontology/stylisticOrigin> <http://dbpedia.org/resource/Alternative_rock> .
+<http://dbpedia.org/resource/If_(Glasvegas_song)> <http://www.w3.org/2000/01/rdf-schema#label> "I'd Rather Be Dead (Than Be with You)"@en .

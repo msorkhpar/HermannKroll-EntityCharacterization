@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OlympicEvent> .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Triathlon_pictogram.svg?width=300> .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Triathlon_pictogram.svg> .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://www.w3.org/2000/01/rdf-schema#label> "Stephan Vuckovic"@en .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Triathlon_pictogram.svg> .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://dbpedia.org/ontology/nextEvent> <http://dbpedia.org/resource/Triathlon_at_the_2004_Summer_Olympics_–_Men's> .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://dbpedia.org/ontology/previousEvent> <http://dbpedia.org/resource/Triathlon_at_the_2004_Summer_Olympics_–_Men's> .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OlympicEvent> .
+<http://dbpedia.org/resource/Triathlon_at_the_2000_Summer_Olympics_–_Men's> <http://dbpedia.org/ontology/residence> <http://dbpedia.org/resource/Victoria,_British_Columbia> .

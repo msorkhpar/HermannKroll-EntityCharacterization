@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Operation_Hump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/resource/Operation_Hump> <http://dbpedia.org/ontology/isPartOfMilitaryConflict> <http://dbpedia.org/resource/Vietnam_War> .
+<http://dbpedia.org/resource/Operation_Hump> <http://dbpedia.org/ontology/territory> <http://dbpedia.org/resource/Vietnam> .
+<http://dbpedia.org/resource/Operation_Hump> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Vietnam> .
+<http://dbpedia.org/resource/Operation_Hump> <http://www.w3.org/2000/01/rdf-schema#label> "Vietnam War"@en .
+<http://dbpedia.org/resource/Operation_Hump> <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/Vietnam_War> .
+<http://dbpedia.org/resource/Operation_Hump> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:US_1_503rd_paratrooper_Operation_Hump_SVN_November_1965.PNG> .
+<http://dbpedia.org/resource/Operation_Hump> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:US_1_503rd_paratrooper_Operation_Hump_SVN_November_1965.PNG> .
+<http://dbpedia.org/resource/Operation_Hump> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Ngo_Dinh_Diem_presidential_visit_to_Australia> .
+<http://dbpedia.org/resource/Operation_Hump> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Articles_containing_video_clips> .

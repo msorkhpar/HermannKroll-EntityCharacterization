@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://dbpedia.org/ontology/headquarter> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://dbpedia.org/ontology/regionServed> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://www.w3.org/2000/01/rdf-schema#label> "Fort Thomas, Kentucky"@en .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://dbpedia.org/ontology/timeZone> <http://dbpedia.org/resource/Eastern_Time_Zone> .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/List_of_airports> .
+<http://dbpedia.org/resource/William_Anthony_Hughes> <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Ohio> .

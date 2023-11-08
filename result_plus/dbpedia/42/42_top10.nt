@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RecordLabel> .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/stylisticOrigin> <http://dbpedia.org/resource/Pop_music> .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/Poland> .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://www.w3.org/2000/01/rdf-schema#label> "Epic Records"@en .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Rock_music> .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/musicSubgenre> <http://dbpedia.org/resource/Gangsta_rap> .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/derivative> <http://dbpedia.org/resource/Pop_music> .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Hip_hop_music> .
+<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/distributingCompany> <http://dbpedia.org/resource/Sony_Music_Entertainment> .

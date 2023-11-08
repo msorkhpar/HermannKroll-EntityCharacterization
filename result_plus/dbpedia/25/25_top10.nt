@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Reamer_Barn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/resource/Reamer_Barn> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Reamer_Barn> <http://dbpedia.org/ontology/headquarter> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/Reamer_Barn> <http://dbpedia.org/ontology/regionServed> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/Reamer_Barn> <http://www.w3.org/2000/01/rdf-schema#label> "Ohio State Route 511"@en .
+<http://dbpedia.org/resource/Reamer_Barn> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/Reamer_Barn> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Ohio> .
+<http://dbpedia.org/resource/Reamer_Barn> <http://dbpedia.org/ontology/timeZone> <http://dbpedia.org/resource/Eastern_Time_Zone> .
+<http://dbpedia.org/resource/Reamer_Barn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Ohio_locations_by_per_capita_income> .
+<http://dbpedia.org/resource/Reamer_Barn> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Reamer_Barn.jpg> .

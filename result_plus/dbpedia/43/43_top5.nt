@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/King_of_the_Mountain_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company> .
+<http://dbpedia.org/resource/King_of_the_Mountain_(film)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/King_of_the_Mountain_(film)> <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/King_of_the_Mountain_(film)> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/King_of_the_Mountain_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Joseph Bottoms"@en .

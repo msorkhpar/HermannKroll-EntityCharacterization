@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Town> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://dbpedia.org/ontology/place> <http://dbpedia.org/resource/Sri_Lanka> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://dbpedia.org/ontology/spokenIn> <http://dbpedia.org/resource/Sri_Lanka> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://dbpedia.org/ontology/usingCountry> <http://dbpedia.org/resource/Sri_Lanka> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://www.w3.org/2000/01/rdf-schema#label> "Battle of Sampur"@en .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Sri_Lanka> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Sri_Lanka> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Coat_of_arms_of_Sri_Lanka.svg> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Sri_Lankan> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Coat_of_arms_of_Sri_Lanka.svg> .

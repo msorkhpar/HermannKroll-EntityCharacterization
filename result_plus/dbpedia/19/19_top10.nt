@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/WrestlingEvent> .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://dbpedia.org/ontology/headquarter> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://dbpedia.org/ontology/largestCity> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://www.w3.org/2000/01/rdf-schema#label> "New York City"@en .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://dbpedia.org/ontology/recordedIn> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/ECW_Hardcore_TV> .
+<http://dbpedia.org/resource/Massacre_on_34th_Street> <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/New_York_City> .

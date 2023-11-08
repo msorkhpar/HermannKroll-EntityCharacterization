@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/England> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/isPartOfMilitaryConflict> <http://dbpedia.org/resource/Napoleonic_Wars> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/Napoleonic_Wars> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://www.w3.org/2000/01/rdf-schema#label> "Dutch East Indies"@en .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Articles_containing_video_clips> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Java_blank_map.svg> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://purl.org/dc/elements/1.1/rights> <http://en.wikipedia.org/wiki/File:Java_blank_map.svg> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Dutch_Ethical_Policy> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/largestCity> <http://dbpedia.org/resource/Jakarta> .

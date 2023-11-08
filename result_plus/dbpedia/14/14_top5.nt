@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/2011_Sparta_Prague_Open> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TennisTournament> .
+<http://dbpedia.org/resource/2011_Sparta_Prague_Open> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+<http://dbpedia.org/resource/2011_Sparta_Prague_Open> <http://dbpedia.org/ontology/residence> <http://dbpedia.org/resource/France> .
+<http://dbpedia.org/resource/2011_Sparta_Prague_Open> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Netherlands> .
+<http://dbpedia.org/resource/2011_Sparta_Prague_Open> <http://www.w3.org/2000/01/rdf-schema#label> "Magdaléna Rybáriková"@en .

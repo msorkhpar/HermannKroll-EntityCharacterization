@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/England> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/isPartOfMilitaryConflict> <http://dbpedia.org/resource/Napoleonic_Wars> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/Napoleonic_Wars> .
+<http://dbpedia.org/resource/Raid_on_Griessie> <http://www.w3.org/2000/01/rdf-schema#label> "Dutch East Indies"@en .
