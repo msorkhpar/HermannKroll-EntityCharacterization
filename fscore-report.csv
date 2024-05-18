@@ -1,0 +1,7 @@
+Configuration, DBpedia k=5, DBpedia k=10, LMDB k=5, LMDB k=10
+ESBM reported, 0.335, 0.503, 0.360, 0.402
+BAFREC with thier own Cache file,
+Ours with loading ESBM into their openlink/virtuoso DB, 0.291, 0.435, 0.291, 0.267
+Ours with loading ESBM and all the second neighbors(ESBM+) into DB(first run), 0.321, 0.458, 0.335, 0.307
+Ours with loading ESBM and all the second neighbors(ESBM+) into DB(second run), .321, .459, .335, .307
+Ours with loading ESBM-plus/DBPEDIA and the whole LMDB dataset, .3208, .460, .343, .339

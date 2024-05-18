@@ -19,7 +19,7 @@
         </entry>
         <entry>
             <key>"54.051945"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:Royal_Air_Force_personnel_of_World_War_I</key>
@@ -1619,7 +1619,7 @@
         </entry>
         <entry>
             <key>"10.35"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:Communes_of_Bac_Lieu_Province</key>
@@ -1655,7 +1655,7 @@
         </entry>
         <entry>
             <key>"-0.15"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Science_fiction</key>
@@ -1879,7 +1879,7 @@
         </entry>
         <entry>
             <key>"1.2666667"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:1913_in_Serbia</key>
@@ -1979,7 +1979,7 @@
         </entry>
         <entry>
             <key>"49.00111"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>"+5:30"</key>
@@ -3003,7 +3003,7 @@
         </entry>
         <entry>
             <key>"54.6"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>"Clerk"@en</key>
@@ -3195,7 +3195,7 @@
         </entry>
         <entry>
             <key>"52.37"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://commons.wikimedia.org/wiki/Special:FilePath/Politiken_newspaper_logo.svg</key>
@@ -3235,7 +3235,7 @@
         </entry>
         <entry>
             <key>"21.33639"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:English-language_albums</key>
@@ -3255,7 +3255,7 @@
         </entry>
         <entry>
             <key>"40.96362"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:2012–13_in_Emirati_football</key>
@@ -3843,7 +3843,7 @@
         </entry>
         <entry>
             <key>"8.497666"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:Birds_of_Asia</key>
@@ -4367,7 +4367,7 @@
         </entry>
         <entry>
             <key>"41.293888"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/ontology/Species</key>
@@ -5007,7 +5007,7 @@
         </entry>
         <entry>
             <key>"15.54259"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Mentioned_in_dispatches</key>
@@ -5303,7 +5303,7 @@
         </entry>
         <entry>
             <key>"47.22167"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:People_from_Shillong</key>
@@ -5583,7 +5583,7 @@
         </entry>
         <entry>
             <key>"9.35"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>"I"</key>
@@ -5831,7 +5831,7 @@
         </entry>
         <entry>
             <key>"-74.18528"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Irish_War_of_Independence</key>
@@ -5971,7 +5971,7 @@
         </entry>
         <entry>
             <key>"35.03361"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>"American psychologist"@en</key>
@@ -5987,7 +5987,7 @@
         </entry>
         <entry>
             <key>"35.42472"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/ontology/Bird</key>
@@ -6131,7 +6131,7 @@
         </entry>
         <entry>
             <key>"-82.245"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Muławki</key>
@@ -6723,7 +6723,7 @@
         </entry>
         <entry>
             <key>"45.9213"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:New_York_Republicans</key>
@@ -6971,7 +6971,7 @@
         </entry>
         <entry>
             <key>"75.77102"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:Flora_of_Africa</key>
@@ -7339,7 +7339,7 @@
         </entry>
         <entry>
             <key>"33.269444"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:Music_in_Derby</key>
@@ -7667,7 +7667,7 @@
         </entry>
         <entry>
             <key>"15.306447"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Joseph_Bottoms</key>
@@ -7991,7 +7991,7 @@
         </entry>
         <entry>
             <key>"52.03245"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>"Mackey"@en</key>
@@ -8087,7 +8087,7 @@
         </entry>
         <entry>
             <key>"50.716667"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Amphibian</key>
@@ -8143,7 +8143,7 @@
         </entry>
         <entry>
             <key>"9.566667"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:Syracuse_University_faculty</key>
@@ -8327,7 +8327,7 @@
         </entry>
         <entry>
             <key>"45.551"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>"1760"^^&lt;http://www.w3.org/2001/XMLSchema#gYear&gt;</key>
@@ -8339,7 +8339,7 @@
         </entry>
         <entry>
             <key>"-82.74139"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Order_of_the_British_Empire</key>
@@ -10035,7 +10035,7 @@
         </entry>
         <entry>
             <key>"46.70736"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:Royal_Navy_officers_of_World_War_I</key>
@@ -10095,7 +10095,7 @@
         </entry>
         <entry>
             <key>"3.372"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/ontology/Athlete</key>
@@ -10391,7 +10391,7 @@
         </entry>
         <entry>
             <key>"21.616667"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt;</key>
-            <value incomingPredicates="1"/>
+            <value incomingPredicates="0"/>
         </entry>
         <entry>
             <key>http://dbpedia.org/resource/Category:Ice_Cube_albums</key>

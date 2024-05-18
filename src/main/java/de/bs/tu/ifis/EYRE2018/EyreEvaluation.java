@@ -30,17 +30,17 @@ public class EyreEvaluation {
     private GraphAnalysis analysisDBpedia;
     private GraphAnalysis analysisLMDB;
 
-    private void loadEntites(){
+    private void loadEntites() {
         logger.info("Read entity list from " + Config.EYRE_ENTITY_LIST);
         final EyreEntityListReader entityListReader = new EyreEntityListReader();
         entityList = entityListReader.readEntityListFromFile(Config.EYRE_ENTITY_LIST, true);
 
         // Sort entites in dbpedia and lmdb
-        for(final EyreEntity entity : entityList){
+        for (final EyreEntity entity : entityList) {
             if (entity.getGraph().contains("dbpedia")) {
                 dbpediaEntites.add(entity);
             }
-            if(entity.getGraph().contains("linked")){
+            if (entity.getGraph().contains("linked")) {
                 lmdbEntites.add(entity);
             }
 
@@ -193,27 +193,17 @@ public class EyreEvaluation {
 
 
         logger.info("There are " + dbpediaEntites.size() + " dbpedia entites and " + lmdbEntites.size() + " lmdb entites!");
-        try {
-            if (Config.CONNECT_TO_DATABASE) {
-                virtuosoDB = new VirtuosoDB(Config.DATABASE_SERVER_ADRESS, Config.DATABASE_SERVER_PORT);
-                virtuosoDB.connect();
-            }
-
-            performAnalysis();
-
-            //Optional:
-            //printEntityAndPredicateAnalysis();
-
-
-            performEvaluation();
-
-            if (Config.CONNECT_TO_DATABASE) {
-                virtuosoDB.close();
-            }
-        } catch (SQLException ex) {
-            logger.error("Database error: " + ex);
-            ex.printStackTrace();
+        if (Config.CONNECT_TO_DATABASE) {
+            virtuosoDB = new VirtuosoDB(Config.DATABASE_SERVER_ADRESS, Config.DATABASE_SERVER_PORT);
         }
+
+        performAnalysis();
+
+        //Optional:
+        //printEntityAndPredicateAnalysis();
+
+
+        performEvaluation();
 
     }
 

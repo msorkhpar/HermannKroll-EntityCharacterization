@@ -11,6 +11,7 @@ docker exec -it virtuoso isql -U dba -P dba exec="ld_dir ('/tmp/lmdb', '*.nt', '
 docker exec -it virtuoso isql -U dba -P dba exec="rdf_loader_run();"
 docker exec -it virtuoso isql -U dba -P dba exec="SELECT * FROM DB.DBA.LOAD_LIST WHERE LL_ERROR IS NOT NULL;"
 docker exec -it virtuoso isql -U dba -P dba exec="COMMIT WORK;"
+docker exec -it virtuoso isql -U dba -P dba exec="SPARQL SELECT COUNT(*) WHERE { ?s ?p <http://schema.org/RadioStation> . };"
 ```
 
 To clear the db from the previous run:
@@ -42,6 +43,14 @@ We can't deliver all necessary dependencies, because some are missing inside mav
 http://docs.openlinksw.com/virtuoso/virtuosodriverpackaging/
 2. Copy the jar inside lib/jdbc/virtjdbc/4.2/virtjdbc-4.2.jar 
 
+```shell
+mvn install:install-file -Dfile=libs/virtjdbc-4.2.jar -DgroupId=jdbc -DartifactId=virtjdbc -Dversion=4.2 -Dpackaging=jar
+
+mvn install:install-file -Dfile=libs/jawjaw-1.0.2.jar -DgroupId=jawjaw -DartifactId=jawjaw -Dversion=1.0.2 -Dpackaging=jar
+
+mvn install:install-file -Dfile=libs/ws4j-1.0.1.jar -DgroupId=ws4j -DartifactId=ws4j -Dversion=1.0.1 -Dpackaging=jar
+
+```
 
 ## Cached database statistics
 To prohibit setting up a DBpedia and LinkedMDB database, we deliver two cache files which contain all necessary statistics. The Virtuoso JDBC driver needs to be included, but no database connection is necessary. The connection is disabled as default.

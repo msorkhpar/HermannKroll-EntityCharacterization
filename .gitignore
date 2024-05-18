@@ -3,6 +3,7 @@
 ESBM-eval/
 result/
 target/
+db
 
 # User-specific stuff
 .idea/**/workspace.xml

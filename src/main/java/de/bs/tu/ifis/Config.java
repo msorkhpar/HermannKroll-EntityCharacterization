@@ -8,6 +8,10 @@ public class Config {
     public static final String EYRE_RESULT_PATH = "result/";
     //Path to the EYRE entity list (all subdirectories needs to be there too)
     public static final String EYRE_ENTITY_LIST = "data/2023/elist.txt";
+    //public static final String DBPEDIA_ROOT = "dbpedia";
+    public static final String DBPEDIA_ROOT = "dbpedia";
+    //public static final String LMDB_ROOT = "lmdb";
+    public static final String LMDB_ROOT = "lmdb";
 
     //Setting the ontology file
     public static final String ONTOLOGY_DBPEDIA_FILE = "data/dbpedia_2016_ontology.nt";
